@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 
-file = open("observables.csv", "r");
+file = open("quantities.csv", "r");
 a = np.array(list(csv.reader(file, delimiter=' ')), dtype=float)
 
 plt.title("Magnetization")

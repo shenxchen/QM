@@ -109,7 +109,7 @@ double calEneUnit(int **s){
 
 int main(){
     FILE *file;
-    file = fopen("observables.csv", "w");
+    file = fopen("quantities.csv", "w");
 
     for (int j=0;j<nT;j++){
         double T = T0 + j*dT;
