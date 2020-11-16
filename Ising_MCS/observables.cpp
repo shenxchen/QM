@@ -9,9 +9,9 @@ using namespace std;
 const double T0 = 1.2;
 const double dT=0.05;
 const int nT = 61;
-const long N = 10;
-const long n1 = 200000;
-const long n2 = 200000;
+const long N = 30;
+const long n1 = 10000000;
+const long n2 = 300000;
 
 static int **s = new int*[N];
 
